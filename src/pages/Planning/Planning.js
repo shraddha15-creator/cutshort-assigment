@@ -22,7 +22,7 @@ export const Planning = () => {
 				>
 					<div className="plans">
 						<div className="plans-item active">
-							<i className="fas fa-user"></i>
+							<i className="fas fa-user active-icon"></i>
 							<p className="plans-title">For myself</p>
 							<p className="plans-detail">
 								Write better. Think more clearly. Stay organized.
