@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+}
+
+.brand-logo{
+  width: 1rem;
+}
+
+.brand-name{
+  font-weight: 700;
+font-size: 1.1rem;
+}
