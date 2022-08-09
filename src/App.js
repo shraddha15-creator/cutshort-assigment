@@ -1,10 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header/Header";
-import { Welcome } from "./pages/Welcome/Welcome";
-import { Setup } from "./pages/Setup/Setup";
-import { Planning } from "./pages/Planning/Planning";
-import { Onboarding } from "./pages/Onboarding/Onboarding";
+import { Welcome, Setup, Planning, Onboarding } from "./pages";
 
 function App() {
 	return (
