@@ -1,0 +1,24 @@
+.optional{
+  color: var(--secondary-color);
+}
+
+.url-container{
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: .7rem;
+  font-weight: 500;
+  background-color: #f1f1f1;
+  color: var(--secondary-color);
+  text-align:start; 
+  border-radius: 5px;
+}
+
+.url-container>input{
+  border-radius: 0;
+  width: 59%;
+  margin-left: .1rem;
+}
+
+.url-input{
+  margin: 0;
+}

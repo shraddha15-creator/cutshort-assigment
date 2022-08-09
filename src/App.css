@@ -1,6 +1,86 @@
 .app {
   text-align: center;
   margin:auto;
-  width: 40%;
+  width: 30%;
 }
 
+.container-title{
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.container-subtitle{
+  color: var(--secondary-color);
+  margin-top: -0.7rem;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.input-label{
+  font-size: .7rem;
+  font-weight: 500;
+  padding-bottom: .3rem;
+  display: inline-block;
+}
+
+::placeholder { 
+  color:var(--secondary-color);
+}
+
+button{
+  cursor: pointer;
+  background-color: var(--primary-color);
+  padding: .8rem;
+  font-size: .7rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+form{
+  margin-top: 2.5rem;
+}
+
+input{
+  margin-bottom: 1rem;
+  padding: .6rem;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #E0E0E0;
+  font-size: .7rem;
+  font-weight: 500;
+}
+
+input:active{
+  border: 1px solid red;
+}
+
+@media(max-width:1050px){
+  .app{
+    width: 60%;
+  }
+}
+
+@media(max-width:750px){
+  .app{
+    width: 70%;
+  }
+
+  .container-title{
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-width:450px){
+  .app{
+    width: 100%;
+  }
+
+  .container-title{
+    font-size: 1rem;
+  }
+}

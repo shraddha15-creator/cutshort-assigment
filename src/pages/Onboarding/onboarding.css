@@ -1,0 +1,7 @@
+.onboarding-icon{
+  color: var(--primary-color);
+  font-size: 2rem;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 5rem;
+}

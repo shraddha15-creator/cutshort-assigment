@@ -1,0 +1,36 @@
+.plans-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.plans{
+  display: flex;
+  text-align: start;
+  /* gap: .5rem; */
+}
+
+.plans-item{
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+
+.plans-title{
+  font-weight: 700;
+  font-size: .7rem;
+}
+
+.plans-detail{
+  font-weight: 500;
+color: var(--secondary-color);
+  font-size: .6rem;
+}
+
+.active{
+  border: 1px solid var(--primary-color);
+}
+
+.not-active{
+  border: 1px solid #e0e0e0;
+}

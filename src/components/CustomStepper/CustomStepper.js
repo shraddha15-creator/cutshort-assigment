@@ -9,7 +9,7 @@ export const CustomStepper = ({ step }) => {
 				activeStep={step}
 				activeColor="#664DE5"
 				completeColor="#664DE5"
-				completeBarColor="#697489"
+				completeBarColor="#664DE5"
 			/>
 		</div>
 	);

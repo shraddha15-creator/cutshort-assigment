@@ -1,14 +1,17 @@
-import React from "react";
 import { CustomStepper } from "../../components/CustomStepper/CustomStepper";
+import "./onboarding.css";
 
 export const Onboarding = () => {
 	return (
 		<>
 			<CustomStepper step="4" />
-			<div>
-				<div>✔️</div>
-				<h2>Congratulations, Eren!</h2>
-				<p>You have completed onboarding, you can start using Eden!</p>
+			<div className="main-container">
+				<i className="fas fa-check-circle onboarding-icon"></i>
+
+				<h2 className="container-title">Congratulations, Eren!</h2>
+				<p className="container-subtitle">
+					You have completed onboarding, you can start using Eden!
+				</p>
 
 				<button>Launch Eden</button>
 			</div>
